@@ -13,7 +13,7 @@
         >
           <q-tab name="/" icon="home" label="" />
           <q-tab name="hotel" icon="hotel" label="" />
-          <q-tab name="servisios" icon="servisios" label="" />
+          <q-tab name="servicios" icon="servicios" label="" />
           <q-tab name="actividades" icon="actividades" label="" />
           <q-tab name="contacto" icon="contacto" label="" />
         </q-tabs>
@@ -54,7 +54,7 @@ export default {
 
    
     function getTabFromRoute(path) {
-      if (path.includes('/servisios')) return 'servisios'
+      if (path.includes('/servicios')) return 'servicios'
       if (path.includes('/hotel')) return 'hotel'
       if (path.includes('/actividades')) return 'actividades'
       if (path.includes('/contacto')) return 'contacto'
@@ -74,69 +74,43 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
-  font-style: normal;
-  font-family: "Inconsolata", monospace;
 
 }
 
-body.desktop.no-touch.body--light {
-  background-color: rgba(255, 255, 255, 0.411);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100%;
-}
-
-
-.full-width-tabs {
-
- 
-
-  display: flex;
-  margin-left: -91px;
-  margin-top: -50px;
-  padding: 0;
-  justify-content: space-between; 
-  width: 1366px;
-  height:70px; 
-
-}
-
-.full-width-tabs {
-  
-  font-family: "Inconsolata", monospace;
-  display: flex;
-  justify-content: space-between; 
-
-}
 
 .custom-tabs {
-  font-family: "Inconsolata", monospace;
-  background-color: #b1afad; 
+  background-color: #242323; 
   color: white; 
-
-
+  font-size:60px;
 }
 
 .q-tab {
-  
-  flex-grow: 1; 
+  font-family: "Mooli", serif;
+  flex-grow: 0.05; 
   text-align: center; 
-  margin: 0; 
- 
-  
+  margin: 0 25px; 
 }
 
 .q-tab .q-icon {
-
- 
-  font-style: normal;
-
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 .q-tab--active {
-  font-style: normal;
-
+  font-weight: bold; 
 }
+
+.full-width-tabs {
+  display: flex;
+  margin-left: -450px;
+  margin-top: -50px;
+  padding: 0;
+  justify-content: space-between; 
+  width: 1993px;
+
+  height: 80px; 
+}
+
+
+
 </style>

@@ -14,11 +14,47 @@
         <h3>----- Bed & Breakfast -----</h3>
       </div>
       <div class="parte1_2">
-        <div class="imagen1"></div>
-        <div class="imagen2">
-          <div class="imagen3"></div>
-          <div class="imagen4"></div>
+        <div class="q-pa-md">
+    <q-carousel
+      arrows
+      animated
+      v-model="slide"
+      height="400px"
+    >
+      <q-carousel-slide name="first" img-src="https://cdn.quasar.dev/img/mountains.jpg">
+        <div class="absolute-bottom custom-caption">
+          <div class="text-h2">First stop</div>
+          <div class="text-subtitle1">Mountains</div>
         </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="second" img-src="https://cdn.quasar.dev/img/parallax1.jpg">
+        <div class="absolute-bottom custom-caption">
+          <div class="text-h2">Second stop</div>
+          <div class="text-subtitle1">Famous City</div>
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
+        <div class="absolute-bottom custom-caption">
+          <div class="text-h2">Third stop</div>
+          <div class="text-subtitle1">Famous Bridge</div>
+        </div>
+      </q-carousel-slide>
+    </q-carousel>
+  </div>
+  <div class="imagen2">
+                    <div class="sobre">
+
+                        <h1>ABOUT</h1>
+                        <h2>Welcome to Hotel Sol y Mar, your perfect getaway.</h2>
+                        <h2>Located on the stunning coastline, we offer</h2>
+                        <h2>luxurious accommodations with breathtaking views.</h2>
+                        <h2>Enjoy our world-class amenities including a</h2>
+                        <h2>pool, spa, and gourmet dining experiences.</h2>
+                        <h2>Relax in elegantly designed rooms featuring</h2>
+                        <h2>modern comforts and local charm for all guests.</h2>
+
+                    </div>
+                </div>
 
       </div>
 
@@ -103,6 +139,26 @@
     </div>
   </div>
 </template>
+
+<script>
+import { ref } from 'vue'
+
+export default {
+  setup () {
+    return {
+      slide: ref('first')
+    }
+  }
+}
+</script>
+<style lang="sass" scoped>
+.custom-caption
+  text-align: center
+  padding: 12px
+  color: white
+  background-color: rgba(0, 0, 0, .3)
+</style>
+
 <style scoped>
 * {
   margin: 0;
@@ -124,22 +180,22 @@ body {
 
 .container {
 
-  width: 1360px;
-  height: 1560px;
+  width: 1900px;
+  min-height: 2660px;
 
   background-color: rgba(139, 135, 129, 0.5);
   /*  Centra la imagen */
   background-size: cover;
   display: grid;
-  grid-template-rows: 66% 34%;
-  margin-left: -91px;
+  grid-template-rows: 70% 30%;
+  margin-left: -360px;
   margin-top: 0px;
   margin-bottom: -50px;
 }
 
 .parte1 {
   display: grid;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: 10% 90%;
   background-color: rgba(235, 232, 227, 0.5);
   background-color: rgb(238, 235, 231);
 }
@@ -155,7 +211,7 @@ body {
   margin-top: 10px;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
-
+  color: #000;
 }
 
 .parte1_2 {
@@ -166,33 +222,41 @@ body {
   background-color: rgb(226, 224, 220);
 }
 
-.imagen1 {
-
-  background: url(https://static.wixstatic.com/media/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg) no-repeat center center;
-  background-color: rgb(238, 235, 231);
-  background-size: 90%;
+.q-pa-md{
+  margin-top: 50px;
 }
 
 .imagen2 {
-  display: grid;
-  grid-template-columns: 55% 45%;
+  width: 1200px;
+    height: 800px;
+    background: url(https://static.wixstatic.com/media/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg) no-repeat center center;
+    background-color: rgb(238, 235, 231);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: -200px;
+    position: relative;
 }
 
-.imagen3 {
-  background: url(https://static.wixstatic.com/media/a9ff3b_75dfd28a431049f39b6f85be15a1820e~mv2_d_2500_1829_s_2.jpg/v1/fill/w_980,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a9ff3b_75dfd28a431049f39b6f85be15a1820e~mv2_d_2500_1829_s_2.jpg) no-repeat center center;
-  background-color: rgb(238, 235, 231);
-  background-size: 87%;
-  background-position: 58% 90%;
-  margin-left: 14px;
+div.sobre {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(238, 235, 231, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.imagen4 {
-  background: url(https://static.wixstatic.com/media/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg) no-repeat center center;
-  background-color: rgb(238, 235, 231);
-  background-size: 89.5%;
-  background-position: 8% 45%;
-  margin-left: -90px;
-  padding: 0;
+div.sobre h1 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+div.sobre h2 {
+    font-size: 16px;
+    padding: 0;
+    margin-top: -18px;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*Parte 5*/

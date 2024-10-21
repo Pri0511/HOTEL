@@ -15,35 +15,43 @@
             </div>
             <div class="parte1_2">
                 <div class="imagen1">
-                    <div class="sobre">
 
-                        <div class="contacto">
-                            <div class="contacto1">
-                                <h1>Enter Your First Name*</h1>
-                                <input type="text" id="nombre" placeholder=""><br><br>
-                                <h2>Enter Your Last name*</h2>
-                                <input type="text" id="apellido" placeholder=""><br><br>
-                                <h3>Enter Your Email*</h3>
-                                <input type="text" id="email" placeholder=""><br><br>
-                                <h4>Enter Your Subject*</h4>
-                                <input type="text" id="subject" placeholder=""><br><br>
-                            </div>
-                            <div class="contacto2">
-                                <h5>Enter Your Message</h5>
-                                <input type="text" id="message" placeholder=""><br><br>
-                                <button>Submit</button>
-                            </div>
-                        </div>
-                        <div class="mapa">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.704319801122!2d-73.14499573215444!3d6.55895930826788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e69c6d95410bc45%3A0xd9b8d2118a9b1568!2sSena%20Centro%20Agroturistico!5e0!3m2!1sen!2sau!4v1729161113516!5m2!1sen!2sau"
-        width="520"
-        height="700"
-        
-        style="border:0;"
-   
-        loading="lazy"></iframe>
-</div>
+
+                    <div class="fila">
+                        <img src="https://i.pinimg.com/control/236x/c8/63/3e/c8633eea314c084dc87ce87967769ea2.jpg"
+                            alt="">
+                        <h1>Breakfast</h1>
+                        <p>I'm a paragraph. Breakfast.</p>
+                    </div>
+                    <div class="fila">
+                        <img src="https://i.pinimg.com/control/236x/51/4d/c7/514dc7f68cf6d9985d2021949059ca61.jpg"
+                            alt="">
+                        <h1>Garden</h1>
+                        <p>I'm a paragraph. Garden.</p>
+                    </div>
+                    <div class="fila">
+                        <img src="https://i.pinimg.com/474x/ff/f8/84/fff884e6635ddcc25b875e2a94400463.jpg"
+                            alt="">
+                        <h1>Pool</h1>
+                        <p>I'm a paragraph. Pool.</p>
+                    </div>
+                    <div class="fila">
+                        <img src="https://i.pinimg.com/236x/b9/e0/eb/b9e0eba59d9e36bf7a177e652cd4597d.jpg"
+                            alt="">
+                        <h1>Free Wifi</h1>
+                        <p>I'm a paragraph. Free Wifi.</p>
+                    </div>
+                    <div class="fila">
+                        <img src="https://i.pinimg.com/236x/fa/3a/2d/fa3a2dba56131bde314a8883b7c23aa9.jpg"
+                            alt="">
+                        <h1>Daily Housekeeping</h1>
+                        <p>I'm a paragraph. Daily Housekeeping.</p>
+                    </div>
+                    <div class="fila">
+                        <img src="https://i.pinimg.com/236x/1a/ba/e0/1abae0ec1644c2cd563e653d5762d052.jpg"
+                            alt="">
+                        <h1>In-Room Dining Service</h1>
+                        <p>I'm a paragraph. In-Room Dining Service.</p>
                     </div>
                 </div>
 
@@ -154,10 +162,10 @@ body {
 .container {
 
     width: 1360px;
-    height: 1560px;
+    height: 1860px;
 
     background-color: rgba(139, 135, 129, 0.5);
-
+  
     background-size: cover;
     display: grid;
     grid-template-rows: 66% 34%;
@@ -194,126 +202,74 @@ body {
 
 .imagen1 {
     width: 1200px;
-    height: 800px;
-    background: url(https://static.wixstatic.com/media/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg) no-repeat center center;
+    
     background-color: rgb(238, 235, 231);
-    background-size: cover;
-    margin-left: 90px;
-    margin-top: 12px;
-    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 30%));
+    grid-gap: 20px;
+    padding: 30px;
+    margin-left: 7%;
 }
 
+.fila {
+    margin-left: 12%;
+    background-color: rgba(221, 212, 212, 0.8);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.fila h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    margin-top: -15px;
+    margin-left: -5px;
+    color: #000000;
+}
+
+.fila p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    margin-left: 9px;
+    color: #000000;
+}
+
+.fila img {
+    max-width:60%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+
 div.sobre {
-    width: 1200px;
-    height: 800px;
-    background-color: rgba(238, 235, 231, 0.7);
+    width: 500px;
+    height: 400px;
+    background-color: rgba(238, 235, 231, 0.9);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-columns: 50% 50%;
 }
 
-
-
-
-
-.contacto {
-
-    display: grid;
-    grid-template-rows: 50% 50%;
+div.sobre h1 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
 }
 
-div.sobre h1,
-div.sobre h2,
-div.sobre h3,
-div.sobre h4 {
+div.sobre h2 {
     font-size: 16px;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
-    display: grid;
-    grid-template-rows: 50% 50%;
-}
-div.sobre h1{
-    margin-left: -50%;
-    margin-top: 5%;
-}
-div.sobre h2{
-    margin-left: 50%;
-    margin-top: -20%;
-}
-div.sobre h3{
-    margin-left: -55%;
-    margin-top: 0%;
-}
-div.sobre h4{
-    margin-left: 48%;
-    margin-top: -15%;
-}
-div.sobre h5{
-    margin-left: -52%;
-    margin-top: -15%;
-
-    font-size: 16px;
-    padding: 0;
+    margin-top: -18px;
     font-family: "Montserrat", sans-serif;
 }
 
-#nombre{
-    margin-left: -38%;
-    margin-top: -10%;
-    width: 250px;
-    height: 30px;
-}
-#apellido{
-    margin-left: 60.5%;
-    margin-top: 1%;
-    width: 250px;
-    height: 30px;
-}
-#email{
-    margin-left: -40%;
-    margin-top: 1%;
-    width: 250px;
-    height: 30px;
-}
-#subject{
-    margin-left: 60.5%;
-    margin-top: 0%;
-    width: 250px;
-    height: 30px;
-}
-#message{
-    margin-left:10%;
-    margin-top: 5%;
-    width: 550px;
-    height: 300px;
-}
-
-.contacto2 button{
-    margin-left:10%;
-    margin-top: 0%;
-    width: 550px;
-    height: 40px;
-    border-radius: 0%;
-    background-color: rgb(71, 70, 69);
-    color: azure;
-    font-size: 14px;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-}
-.contacto2 button:hover{
-    background-color: rgb(224, 220, 217);
-    border: 1px solid rgb(71, 70, 69);
-    color: black;
-}
-
-.mapa {
-
-    margin-top: 40px;
-    margin-left: 15px; 
-}
 /*Parte 5*/
 
 .parte5 {
@@ -344,7 +300,7 @@ div.sobre h5{
     margin-top: -8%;
     color: rgb(121, 119, 119);
     text-align: left;
-
+ 
     margin-left: 45%;
 }
 
@@ -354,7 +310,7 @@ div.sobre h5{
     margin-bottom: -10%;
     color: rgb(63, 62, 62);
     text-align: left;
-
+   
     margin-left: 32%;
 
 }
@@ -375,7 +331,7 @@ div.sobre h5{
     margin-bottom: -30%;
     color: rgb(63, 62, 62);
     text-align: left;
-
+   
 }
 
 .parte5prte1_3 h2 {
@@ -384,7 +340,7 @@ div.sobre h5{
     margin-bottom: -20%;
     color: rgb(121, 119, 119);
     text-align: left;
-
+   
 }
 
 .esp {
