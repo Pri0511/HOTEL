@@ -5,14 +5,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
   <div >
     <div class="q-pa-md">
-      <div class="q-gutter-y-md" style="min-width: 100vh">
+      <div class="q-gutter-y-md" style="min-width: 100vh; ">
         <q-tabs
           v-model="tab"
         
            class="custom-tabs full-width-tabs"
         >
           <q-tab name="/" icon="home" label="" />
-          <q-tab name="hotel" icon="hotel" label="" />
+          <q-tab name="hotel" icon="habitaciones" label="" />
           <q-tab name="servicios" icon="servicios" label="" />
           <q-tab name="actividades" icon="actividades" label="" />
           <q-tab name="contacto" icon="contacto" label="" />

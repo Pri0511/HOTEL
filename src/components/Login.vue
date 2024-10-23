@@ -10,51 +10,27 @@
   <div class="container">
     <div class="parte1">
       <div class="parte1_1">
-        <h3>ANTON & LILY</h3>
-        <h3>----- Bed & Breakfast -----</h3>
+        <h3>HOTEL ANTON & LILY</h3>
+  
       </div>
       <div class="parte1_2">
-        <div class="q-pa-md">
-    <q-carousel
-      arrows
-      animated
-      v-model="slide"
-      height="400px"
-    >
-      <q-carousel-slide name="first" img-src="https://cdn.quasar.dev/img/mountains.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h2">First stop</div>
-          <div class="text-subtitle1">Mountains</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="second" img-src="https://cdn.quasar.dev/img/parallax1.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h2">Second stop</div>
-          <div class="text-subtitle1">Famous City</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h2">Third stop</div>
-          <div class="text-subtitle1">Famous Bridge</div>
-        </div>
-      </q-carousel-slide>
-    </q-carousel>
-  </div>
-  <div class="imagen2">
+
+        <div class="parallax"></div>
+
+
                     <div class="sobre">
 
-                        <h1>ABOUT</h1>
-                        <h2>Welcome to Hotel Sol y Mar, your perfect getaway.</h2>
-                        <h2>Located on the stunning coastline, we offer</h2>
-                        <h2>luxurious accommodations with breathtaking views.</h2>
-                        <h2>Enjoy our world-class amenities including a</h2>
-                        <h2>pool, spa, and gourmet dining experiences.</h2>
-                        <h2>Relax in elegantly designed rooms featuring</h2>
-                        <h2>modern comforts and local charm for all guests.</h2>
+                        <h1>ABOUT US</h1>
+                        <h2>Hotel Anton and Lily is a modern and elegant four stars  hotel, overlooking the sea,</h2>
+                        <h2>ideal for a pleasant holiday and great charm, is one of the hotels that best respond</h2>
+                        <h2>to the demands of the guest with comfort and first quality services.  </h2>
+                        <h4></h4>
+                        <h3>The spaces of the Hotel Anton and Lily are new, bright and welcoming, as well</h3>
+                        <h3>as our reception staff, who will be happy to assist you during your stay in Yopal</h3>
+                        <h3>and will be able to suggest itineraries and guided tours.</h3>
 
                     </div>
-                </div>
+                
 
       </div>
 
@@ -150,6 +126,9 @@ export default {
     }
   }
 }
+
+
+
 </script>
 <style lang="sass" scoped>
 .custom-caption
@@ -168,7 +147,7 @@ export default {
 }
 
 body {
-  background-color: rgba(179, 148, 148, 0.411);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,9 +160,9 @@ body {
 .container {
 
   width: 1900px;
-  min-height: 2660px;
+  min-height: 1960px;
 
-  background-color: rgba(139, 135, 129, 0.5);
+
   /*  Centra la imagen */
   background-size: cover;
   display: grid;
@@ -196,8 +175,7 @@ body {
 .parte1 {
   display: grid;
   grid-template-rows: 10% 90%;
-  background-color: rgba(235, 232, 227, 0.5);
-  background-color: rgb(238, 235, 231);
+  background-color: rgb(255, 255, 255);
 }
 
 .parte1_1 {
@@ -208,22 +186,32 @@ body {
 
 .parte1_1 h3 {
 
-  margin-top: 10px;
-  font-size: 30px;
+  margin-top: 40px;
+  font-size: 40px;
   font-family: "Montserrat", sans-serif;
   color: #000;
 }
 
 .parte1_2 {
-  background-color: rgba(235, 232, 227, 0.5);
+  background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-rows: 50% 50%;
+  
 
-  background-color: rgb(226, 224, 220);
 }
 
-.q-pa-md{
-  margin-top: 50px;
+.parallax {
+
+  background-image: url("https://static.wixstatic.com/media/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg");
+
+  width: 980px;
+  height: 731px;
+  margin-top: 40px;
+  margin-left: 450px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .imagen2 {
@@ -232,32 +220,57 @@ body {
     background: url(https://static.wixstatic.com/media/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg) no-repeat center center;
     background-color: rgb(238, 235, 231);
     background-size: cover;
-    margin-left: 80px;
-    margin-top: -200px;
+    margin-left: 300px;
+    margin-top: -50px;
     position: relative;
+
+    
 }
 
 div.sobre {
-    width: 500px;
+    width: 800px;
     height: 400px;
-    background-color: rgba(238, 235, 231, 0.9);
+   
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-div.sobre h1 {
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
+  div.sobre h1 {
+      color: #000;
+      font-size: 30px;
+      margin-top: 780px;
+      font-style: normal;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      margin-bottom: 20px;
+  }
+
+  div.sobre h2 {
+
+      color: #000;
+      font-size: 14px;  
+      font-style: normal;
+      font-weight: 450;   
+      padding: -10px;
+      margin-top: -32px;
+      font-family: "Montserrat", sans-serif;
+  }
+
+div.sobre h3 {
+color: #000;
+font-size: 14px;  
+font-style: normal;
+font-weight: 450;   
+padding: -10px;
+margin-top: -20px;
+font-family: "Montserrat", sans-serif;
+}
+div.sobre h4 {
+margin-bottom: 20px;
 }
 
-div.sobre h2 {
-    font-size: 16px;
-    padding: 0;
-    margin-top: -18px;
-    font-family: "Montserrat", sans-serif;
-}
 
 /*Parte 5*/
 
