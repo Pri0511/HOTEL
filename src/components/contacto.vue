@@ -52,6 +52,7 @@
         </div>
 
 
+
         <div class="parte5">
 
             <div class="parte5final1">
@@ -131,65 +132,68 @@
 
         </div>
     </div>
+    
 </template>
+
+
 <style scoped>
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
-    background-color: rgba(179, 148, 148, 0.411);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    min-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
 }
 
 
 
 .container {
 
-    width: 1360px;
-    height: 1560px;
+  width: 1900px;
+  min-height: 1860px;
 
-    background-color: rgba(139, 135, 129, 0.5);
 
-    background-size: cover;
-    display: grid;
-    grid-template-rows: 66% 34%;
-    margin-left: -91px;
-    margin-top: 0px;
-    margin-bottom: -50px;
+  /*  Centra la imagen */
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 70% 30%;
+  margin-left: -360px;
+  margin-top: 0px;
+  margin-bottom: -50px;
 }
 
 .parte1 {
-    display: grid;
-    grid-template-rows: 20% 80%;
-    background-color: rgba(235, 232, 227, 0.5);
-    background-color: rgb(238, 235, 231);
+  display: grid;
+  grid-template-rows: 10% 90%;
+  background-color: rgb(255, 255, 255);
 }
 
 .parte1_1 {
 
-    margin-top: 50px;
-    background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
 }
 
 .parte1_1 h3 {
 
-    margin-top: 10px;
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
 }
 
+
 .parte1_2 {
-    background-color: rgba(235, 232, 227, 0.5);
-    background-color: rgb(226, 224, 220);
+ 
+
 }
 
 .imagen1 {
@@ -198,8 +202,8 @@ body {
     background: url(https://static.wixstatic.com/media/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_2d6f401da0284208a7ad5d274041dffd~mv2_d_2500_1658_s_2.jpg) no-repeat center center;
     background-color: rgb(238, 235, 231);
     background-size: cover;
-    margin-left: 90px;
-    margin-top: 12px;
+    margin-left: 15%;
+    margin-top: 6%;
     position: relative;
 }
 
@@ -265,30 +269,42 @@ div.sobre h5{
     margin-top: -10%;
     width: 250px;
     height: 30px;
+    background-color: white;
+    color: #000;
+  
+    
 }
 #apellido{
     margin-left: 60.5%;
     margin-top: 1%;
     width: 250px;
     height: 30px;
+    background-color: white;
+    color: #000;
 }
 #email{
     margin-left: -40%;
     margin-top: 1%;
     width: 250px;
     height: 30px;
+    background-color: white;
+    color: #000;
 }
 #subject{
     margin-left: 60.5%;
     margin-top: 0%;
     width: 250px;
     height: 30px;
+    background-color: white;
+    color: #000;
 }
 #message{
     margin-left:10%;
     margin-top: 5%;
     width: 550px;
     height: 300px;
+    background-color: white;
+    color: #000;
 }
 
 .contacto2 button{
@@ -317,108 +333,108 @@ div.sobre h5{
 /*Parte 5*/
 
 .parte5 {
-    border: 1px solid rgb(231, 231, 231);
-    background-color: rgb(218, 213, 207);
-    height: 100%;
-    display: grid;
-    grid-template-rows: 65% 15% 20%;
+  border: 1px solid rgb(231, 231, 231);
+  background-color: rgb(218, 213, 207);
+  height: 100%;
+  display: grid;
+  grid-template-rows: 65% 15% 20%;
 }
 
 .parte5final1 {
-    display: grid;
-    grid-template-columns: 20% 30% 10% 40%;
+  display: grid;
+  grid-template-columns: 20% 30% 10% 40%;
 }
 
 .parte5prte1_1 h1 {
-    font-size: 0.9rem;
-    margin-top: 3%;
-    margin-bottom: -10%;
-    color: rgb(63, 62, 62);
-    text-align: left;
-    margin-left: 45%;
+  font-size: 0.9rem;
+  margin-top: 3%;
+  margin-bottom: -10%;
+  color: rgb(63, 62, 62);
+  text-align: left;
+  margin-left: 45%;
 
 }
 
 .parte5prte1_1 h2 {
-    font-size: 0.9rem;
-    margin-top: -8%;
-    color: rgb(121, 119, 119);
-    text-align: left;
+  font-size: 0.9rem;
+  margin-top: -8%;
+  color: rgb(121, 119, 119);
+  text-align: left;
 
-    margin-left: 45%;
+  margin-left: 45%;
 }
 
 .parte5prte1_2 h1 {
-    font-size: 0.9rem;
-    margin-top: 1%;
-    margin-bottom: -10%;
-    color: rgb(63, 62, 62);
-    text-align: left;
+  font-size: 0.9rem;
+  margin-top: 1%;
+  margin-bottom: -10%;
+  color: rgb(63, 62, 62);
+  text-align: left;
 
-    margin-left: 32%;
+  margin-left: 32%;
 
 }
 
 .parte5prte1_2 h2 {
-    font-size: 0.85rem;
-    margin-top: 4.5%;
-    margin-bottom: -9.5%;
-    color: rgb(121, 119, 119);
-    text-align: left;
-
-    margin-left: 32%;
+  font-size: 0.85rem;
+  margin-top: 4.5%;
+  margin-bottom: -9.5%;
+  color: rgb(121, 119, 119);
+  text-align: left;
+ 
+  margin-left: 32%;
 }
 
 .parte5prte1_3 h1 {
-    font-size: 0.9rem;
-    margin-top: 5%;
-    margin-bottom: -30%;
-    color: rgb(63, 62, 62);
-    text-align: left;
+  font-size: 0.9rem;
+  margin-top: 5%;
+  margin-bottom: -30%;
+  color: rgb(63, 62, 62);
+  text-align: left;
 
 }
 
 .parte5prte1_3 h2 {
-    font-size: 0.85rem;
-    margin-top: 5%;
-    margin-bottom: -20%;
-    color: rgb(121, 119, 119);
-    text-align: left;
+  font-size: 0.85rem;
+  margin-top: 5%;
+  margin-bottom: -20%;
+  color: rgb(121, 119, 119);
+  text-align: left;
 
 }
 
 .esp {
-    margin-top: 48px;
-    margin-left: 79%;
-    width: auto;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    background-image: url(red-mundial.png);
-    background-size: 16px;
-    background-position: left center;
-    background-repeat: no-repeat;
-    padding-left: 20px;
+  margin-top: 48px;
+  margin-left: 79%;
+  width: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-image: url(red-mundial.png);
+  background-size: 16px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
 }
 
 .esp h1 {
-    font-size: 0.9rem;
-    margin: 0;
-    color: rgb(121, 119, 119);
+  font-size: 0.9rem;
+  margin: 0;
+  color: rgb(121, 119, 119);
 }
 
 .parte5final2 h1 {
-    font-size: 0.85rem;
-    margin-left: 3.5%;
-    margin-top: 5%;
-    color: rgb(121, 119, 119);
+  font-size: 0.85rem;
+  margin-left: 3.5%;
+  margin-top: 5%;
+  color: rgb(121, 119, 119);
 }
 
 .parte5final3 h1 {
-    font-size: 0.85rem;
-    margin-left: 3.5%;
-    margin-top: 1%;
+  font-size: 0.85rem;
+  margin-left: 3.5%;
+  margin-top: 1%;
 
-    color: rgb(121, 119, 119);
+  color: rgb(121, 119, 119);
 }
 </style>

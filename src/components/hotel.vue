@@ -31,13 +31,15 @@
                 <div class="habitaciones">
 
                   <div class="fila">
+       
                         <img src="https://static.wixstatic.com/media/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg"
                             alt="">
                         <h1>
                             Junior Suite</h1>
                         <p>Affordable luxury. Our Junior Suites are the perfect option if you’re looking for a little extra luxury. With an open 400 square foot floor plan, the Junior Suites offer the extra space you need to spread out and enjoy the breathtaking views of the city skyline.</p>
+                 
                     </div>
-                    
+              
                   <div class="fila">
                         <img src="https://static.wixstatic.com/media/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg"
                             alt="">
@@ -144,7 +146,10 @@
 
         </div>
     </div>
+    
 </template>
+
+
 <style scoped>
 * {
   margin: 0;
