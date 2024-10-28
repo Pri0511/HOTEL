@@ -191,10 +191,6 @@ body {
 }
 
 
-.parte1_2 {
- 
-
-}
 
 .imagen1 {
     width: 1200px;

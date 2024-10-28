@@ -302,7 +302,9 @@ div.sobre h2 {
     margin-left: 20px;
     margin-top: 60px;
 }
-
+.fila:hover{
+    transform: scale(1.1);
+}
 
 /*Parte 5*/
 

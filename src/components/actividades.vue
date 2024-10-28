@@ -299,10 +299,13 @@ div.sobre h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-     margin-left:20%;
+    margin-left:20%;
     margin-top: 60px;
 }
 
+.fila:hover{
+    transform: scale(1.1);
+}
 
 /*Parte 5*/
 

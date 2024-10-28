@@ -268,6 +268,9 @@ div.sobre h2 {
     padding: 30px;
     margin-left: 19%;
 }
+.fila:hover{
+    transform: scale(1.1);
+}
 
 .fila {
     margin-left: 12%;
