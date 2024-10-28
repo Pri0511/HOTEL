@@ -39,7 +39,7 @@
                         <p>I'm a paragraph. Yoga and Meditation.</p>
                     </div>
                     <div class="fila">
-                        <img src="https://i.pinimg.com/236x/fa/60/1b/fa601bea62f56aeae561dbf884d4e184.jpg"
+                        <img src="https://i.pinimg.com/236x/e6/0b/e7/e60be71086090d2d3f2737b2291242a9.jpg"
                             alt="">
                         <h1>Massages and Spa</h1>
                         <p>I'm a paragraph. Massages and Spa.</p>
