@@ -31,13 +31,33 @@
                 <div class="habitaciones">
 
                   <div class="fila">
-                        <img src="https://i.pinimg.com/control/236x/1a/ae/7d/1aae7d6708f6b1249638dc0b1d28993b.jpg"
+                        <img src="https://static.wixstatic.com/media/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg"
                             alt="">
                         <h1>
-                            ride a bike</h1>
-                        <p>I'm a paragraph. 
-                            ride a bike.</p>
+                            Junior Suite</h1>
+                        <p>Affordable luxury. Our Junior Suites are the perfect option if you’re looking for a little extra luxury. With an open 400 square foot floor plan, the Junior Suites offer the extra space you need to spread out and enjoy the breathtaking views of the city skyline.</p>
                     </div>
+                    
+                  <div class="fila">
+                        <img src="https://static.wixstatic.com/media/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg"
+                            alt="">
+                        <h1>
+                            Standard Room</h1>
+                        <p>
+                            Functional and comfortable. Sit back and enjoy one of our brand new 280 square foot Standard Rooms. Complete with courtyard views, stylish decor and natural light, our Standard Rooms are the perfect combination of function and comfort. Ideally suited for today’s business or leisure travelers.</p>
+                    </div>
+                    
+                  <div class="fila">
+                        <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                            alt="">
+                        <h1>
+                            Superior Room</h1>
+                        <p>
+                            Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or play on the road. The spacious 380 square foot rooms include an intimate lounge area, business workstation and views of the courtyard. Complete with all the regular amenities, our Superior Rooms also include a daily newspaper and water bottles</p>
+                    </div>
+                    
+                 
+
                 </div>
 
             </div>
@@ -241,7 +261,7 @@ div.sobre h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 30%));
     grid-gap: 20px;
     padding: 30px;
-    margin-left: 7%;
+    margin-left: 19%;
 }
 
 .fila {
@@ -270,12 +290,12 @@ div.sobre h2 {
 }
 
 .fila img {
-    max-width:60%;
+    max-width:90%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 60px;
+    margin-left: 20px;
     margin-top: 60px;
 }
 
