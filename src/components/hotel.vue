@@ -1,7 +1,7 @@
 <template>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -17,7 +17,7 @@
                     <div class="sobre">
 
                         <h1>
-                          OUR ROOMS</h1>
+                            OUR ROOMS</h1>
                         <h2>The rooms are perfect and ideal for a</h2>
                         <h2>pleasant and charming holiday. It</h2>
                         <h2>overlooks the courtyard or the street and</h2>
@@ -30,35 +30,67 @@
                 </div>
                 <div class="habitaciones">
 
-                  <div class="fila">
-       
-                        <img src="https://static.wixstatic.com/media/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg"
-                            alt="">
-                        <h1>
-                            Junior Suite</h1>
-                        <p>Affordable luxury. Our Junior Suites are the perfect option if you’re looking for a little extra luxury. With an open 400 square foot floor plan, the Junior Suites offer the extra space you need to spread out and enjoy the breathtaking views of the city skyline.</p>
-                 
+                    <div class="fila">
+
+
+                        <div class="imagen-container">
+                            <img src="https://static.wixstatic.com/media/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg"
+                                alt="">
+                            <div class="overlay">
+                                <div class="info">$250</div>
+                            </div>
+                        </div>
+
+                        <h1>Junior Suite</h1>
+                        <p>Affordable luxury. Our Junior Suites are the perfect option if you’re looking for a little
+                            extra luxury. With an open 400 square foot floor plan, the Junior Suites offer the extra
+                            space you need to spread out and enjoy the breathtaking views of the city skyline.</p>
+
+
+
                     </div>
-              
-                  <div class="fila">
-                        <img src="https://static.wixstatic.com/media/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg"
+
+                    <div class="fila">
+
+                        
+                        <div class="imagen-container">
+                            <img src="https://static.wixstatic.com/media/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg"
                             alt="">
+                            <div class="overlay">
+                                <div class="info">$150</div>
+                            </div>
+                        </div>
+
+                       
                         <h1>
                             Standard Room</h1>
                         <p>
-                            Functional and comfortable. Sit back and enjoy one of our brand new 280 square foot Standard Rooms. Complete with courtyard views, stylish decor and natural light, our Standard Rooms are the perfect combination of function and comfort. Ideally suited for today’s business or leisure travelers.</p>
+                            Functional and comfortable. Sit back and enjoy one of our brand new 280 square foot Standard
+                            Rooms. Complete with courtyard views, stylish decor and natural light, our Standard Rooms
+                            are the perfect combination of function and comfort. Ideally suited for today’s business or
+                            leisure travelers.</p>
                     </div>
-                    
-                  <div class="fila">
-                        <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+
+                    <div class="fila">
+                         
+                        <div class="imagen-container">
+                            <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
                             alt="">
+                            <div class="overlay">
+                                <div class="info">$350</div>
+                            </div>
+                        </div>
+                   
                         <h1>
                             Superior Room</h1>
                         <p>
-                            Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or play on the road. The spacious 380 square foot rooms include an intimate lounge area, business workstation and views of the courtyard. Complete with all the regular amenities, our Superior Rooms also include a daily newspaper and water bottles</p>
+                            Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                            play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                            business workstation and views of the courtyard. Complete with all the regular amenities,
+                            our Superior Rooms also include a daily newspaper and water bottles</p>
                     </div>
-                    
-                 
+
+
 
                 </div>
 
@@ -146,79 +178,80 @@
 
         </div>
     </div>
-    
+
 </template>
 
 
 <style scoped>
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
 }
 
 
 
 .container {
 
-  width: 1900px;
-  min-height: 2660px;
+    width: 1900px;
+    min-height: 2660px;
 
 
-  /*  Centra la imagen */
-  background-size: cover;
-  display: grid;
-  grid-template-rows: 70% 30%;
-  margin-left: -360px;
-  margin-top: 0px;
-  margin-bottom: -50px;
+    /*  Centra la imagen */
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    margin-left: -30.9%;
+    margin-top: 0px;
+    margin-bottom: -5%;
 }
 
 .parte1 {
-  display: grid;
-  grid-template-rows: 10% 90%;
-  background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 10% 90%;
+    background-color: rgb(255, 255, 255);
 }
 
 .parte1_1 {
 
-  margin-top: 50px;
-  background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
 }
 
 .parte1_1 h3 {
 
-  margin-top: 10px;
-  font-size: 40px;
-  font-family: "Montserrat", sans-serif;
-  color: #000;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
 }
 
 .parte1_2 {
-  background-color: rgb(255, 255, 255);
-  display: grid;
-  grid-template-rows: 50% 50%;
-  
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 50% 50%;
+
 
 }
+
 .imagen1 {
     width: 1380px;
     height: 731px;
-    background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg) ;
+    background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg);
 
 
-    margin-left: 90px;
-    margin-top: 20px;
+    margin-left: 20%;
+    margin-top: 0.5%;
 
     background-attachment: fixed;
     background-position: center;
@@ -229,9 +262,10 @@ div.sobre {
     width: 380px;
     height: 450px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 63%;
+   
+    top: 68%;
     left: 50%;
+    position: absolute;
     transform: translate(-50%, -50%);
 }
 
@@ -249,9 +283,9 @@ div.sobre h1 {
 div.sobre h2 {
 
     color: #000;
-    font-size: 14px;  
+    font-size: 14px;
     font-style: normal;
-    font-weight: 550;   
+    font-weight: 550;
     padding: -10px;
     margin-top: -32px;
     font-family: "Montserrat", sans-serif;
@@ -268,17 +302,11 @@ div.sobre h2 {
     padding: 30px;
     margin-left: 19%;
 }
-.fila:hover{
-    transform: scale(1.1);
+
+.fila:hover {
+    transform: scale(1.2);
 }
 
-.fila {
-    margin-left: 12%;
-    background-color: rgba(255, 255, 255, 0.8);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
 
 .fila h1 {
     font-family: "Montserrat", sans-serif;
@@ -297,122 +325,420 @@ div.sobre h2 {
     color: #000000;
 }
 
-.fila img {
-    max-width:90%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    margin-top: 60px;
+.fila {
+    margin-left: 12%;
+    margin-top: 20px; 
 }
 
+.imagen-container {
+    position: relative; 
+}
 
+.fila img {
+    max-width: 90%;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    transition: opacity 0.2s; 
+}
+
+.imagen-container:hover img {
+    opacity: 0.4; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+
+.imagen-container:hover .overlay {
+    opacity: 1; 
+}
 /*Parte 5*/
 
 .parte5 {
-  border: 1px solid rgb(231, 231, 231);
-  background-color: rgb(218, 213, 207);
-  height: 100%;
-  display: grid;
-  grid-template-rows: 65% 15% 20%;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(218, 213, 207);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 65% 15% 20%;
 }
 
 .parte5final1 {
-  display: grid;
-  grid-template-columns: 20% 30% 10% 40%;
+    display: grid;
+    grid-template-columns: 20% 30% 10% 40%;
 }
 
 .parte5prte1_1 h1 {
-  font-size: 0.9rem;
-  margin-top: 3%;
-  margin-bottom: -10%;
-  color: rgb(63, 62, 62);
-  text-align: left;
-  margin-left: 45%;
+    font-size: 0.9rem;
+    margin-top: 3%;
+    margin-bottom: -10%;
+    color: rgb(63, 62, 62);
+    text-align: left;
+    margin-left: 45%;
 
 }
 
 .parte5prte1_1 h2 {
-  font-size: 0.9rem;
-  margin-top: -8%;
-  color: rgb(121, 119, 119);
-  text-align: left;
+    font-size: 0.9rem;
+    margin-top: -8%;
+    color: rgb(121, 119, 119);
+    text-align: left;
 
-  margin-left: 45%;
+    margin-left: 45%;
 }
 
 .parte5prte1_2 h1 {
-  font-size: 0.9rem;
-  margin-top: 1%;
-  margin-bottom: -10%;
-  color: rgb(63, 62, 62);
-  text-align: left;
+    font-size: 0.9rem;
+    margin-top: 1%;
+    margin-bottom: -10%;
+    color: rgb(63, 62, 62);
+    text-align: left;
 
-  margin-left: 32%;
+    margin-left: 32%;
 
 }
 
 .parte5prte1_2 h2 {
-  font-size: 0.85rem;
-  margin-top: 4.5%;
-  margin-bottom: -9.5%;
-  color: rgb(121, 119, 119);
-  text-align: left;
- 
-  margin-left: 32%;
+    font-size: 0.85rem;
+    margin-top: 4.5%;
+    margin-bottom: -9.5%;
+    color: rgb(121, 119, 119);
+    text-align: left;
+
+    margin-left: 32%;
 }
 
 .parte5prte1_3 h1 {
-  font-size: 0.9rem;
-  margin-top: 5%;
-  margin-bottom: -30%;
-  color: rgb(63, 62, 62);
-  text-align: left;
+    font-size: 0.9rem;
+    margin-top: 5%;
+    margin-bottom: -30%;
+    color: rgb(63, 62, 62);
+    text-align: left;
 
 }
 
 .parte5prte1_3 h2 {
-  font-size: 0.85rem;
-  margin-top: 5%;
-  margin-bottom: -20%;
-  color: rgb(121, 119, 119);
-  text-align: left;
+    font-size: 0.85rem;
+    margin-top: 5%;
+    margin-bottom: -20%;
+    color: rgb(121, 119, 119);
+    text-align: left;
 
 }
 
 .esp {
-  margin-top: 48px;
-  margin-left: 79%;
-  width: auto;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  background-image: url(red-mundial.png);
-  background-size: 16px;
-  background-position: left center;
-  background-repeat: no-repeat;
-  padding-left: 20px;
+    margin-top: 48px;
+    margin-left: 79%;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-image: url(red-mundial.png);
+    background-size: 16px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
 }
 
 .esp h1 {
-  font-size: 0.9rem;
-  margin: 0;
-  color: rgb(121, 119, 119);
+    font-size: 0.9rem;
+    margin: 0;
+    color: rgb(121, 119, 119);
 }
 
 .parte5final2 h1 {
-  font-size: 0.85rem;
-  margin-left: 3.5%;
-  margin-top: 5%;
-  color: rgb(121, 119, 119);
+    font-size: 0.85rem;
+    margin-left: 3.5%;
+    margin-top: 5%;
+    color: rgb(121, 119, 119);
 }
 
 .parte5final3 h1 {
-  font-size: 0.85rem;
-  margin-left: 3.5%;
-  margin-top: 1%;
+    font-size: 0.85rem;
+    margin-left: 3.5%;
+    margin-top: 1%;
 
-  color: rgb(121, 119, 119);
+    color: rgb(121, 119, 119);
+}
+
+@media (max-width: 1709px) {
+
+.parte1_1 h3 {
+margin-top: 10px;
+margin-left: 50px;
+font-size: 38px;
+}
+
+.imagen1 {
+    width: 1380px;
+    height: 731px;   
+    margin-left: 18%;
+    margin-top: 0.5%;
+}
+
+div.sobre { 
+    top: 75%;
+    margin-left: 4%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.habitaciones {
+
+    margin-left: 23%;
+}
+/* parte 5 */
+
+.parte5final1 {
+    display: grid;
+    grid-template-columns: 22% 30% 10% 40%;
+}
+
+
+.parte5prte1_1 h1 {   
+    margin-left: 60%;
+    font-size: 0.8rem;
+}
+
+.parte5prte1_1 h2 { 
+    margin-left: 60%;
+    font-size: 0.8rem;
+}
+
+.parte5prte1_2 h1 {
+    font-size: 0.8rem; 
+    margin-left: 26%;
+}
+
+.parte5prte1_2 h2 {
+    font-size: 0.8rem;
+    margin-left: 26%;
+}
+
+.parte5prte1_3 h1 {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    margin-left: -20%;
+}
+
+.parte5prte1_3 h2 {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    margin-bottom: -20%;
+    margin-left: -20%;
+}
+
+.esp {
+    margin-top: 48px;
+    margin-left: 69%;   
+ 
+}
+
+.esp h1 {
+    font-size: 0.9rem;
+    margin: 0;
+    color: rgb(121, 119, 119);
+}
+
+.parte5final2 h1 {
+    font-size: 0.85rem;
+    margin-left: 3.5%;
+    margin-top: 5%;
+    color: rgb(121, 119, 119);
+}
+
+.parte5final3 h1 {
+    font-size: 0.85rem;
+    margin-left: 3.5%;
+    margin-top: 1%;
+
+    color: rgb(121, 119, 119);
+}
+}
+
+
+
+@media (max-width: 1363px) {
+
+.parte1_1 h3 {
+margin-top: 10px;
+margin-left: 19%;
+font-size: 38px;
+}
+
+.imagen1 {
+    width: 1380px;
+    height: 731px;   
+    margin-left: 18%;
+    margin-top: 0.5%;
+}
+
+div.sobre { 
+    top: 75%;
+    margin-left: 12%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.habitaciones {
+    margin-left: 28%;
+}
+/* parte 5 */
+
+.parte5final1 {
+    display: grid;
+    grid-template-columns: 30% 30% 10% 20%;
+}
+
+
+.parte5prte1_1 h1 {   
+    margin-left: 70%;
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+
+.parte5prte1_1 h2 { 
+    margin-left: 70%;
+    font-size: 0.8rem;
+    margin-top: -30px;
+}
+
+.parte5prte1_2 h1 {
+    font-size: 0.8rem; 
+    margin-left: 26%;
+}
+
+.parte5prte1_2 h2 {
+    font-size: 0.8rem;
+    margin-left: 26%;
+}
+
+.parte5prte1_3 h1 {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    margin-left: -20%;
+}
+
+.parte5prte1_3 h2 {
+    font-size: 0.8rem;
+    margin-top: 5%;
+    margin-bottom: -20%;
+    margin-left: -20%;
+}
+
+.esp {
+    margin-top: 48px;
+    margin-left: 69%;   
+ 
+}
+
+.esp h1 {
+    font-size: 0.9rem;
+    margin-left: 100%;
+    color: rgb(121, 119, 119);
+}
+
+.parte5final2 h1 {
+    font-size: 0.85rem;
+    margin-left: 3.5%;
+    margin-top: 5%;
+    color: rgb(121, 119, 119);
+}
+
+.parte5final3 h1 {
+    font-size: 0.85rem;
+    margin-left: 3.5%;
+    margin-top: 1%;
+
+    color: rgb(121, 119, 119);
+}
+}
+
+
+@media (max-width: 1063px) {
+
+.parte1_1 h3 {
+margin-top: 10px;
+margin-left: 19%;
+font-size: 38px;
+
+}
+
+.imagen1 {
+    width: 1380px;
+    height: 931px;   
+    margin-left: 18%;
+   background-position: 50% 10%;
+}
+
+div.sobre { 
+    top: 75%;
+    margin-left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+}
+@media (max-width: 675px) {
+
+.parte1_1 h3 {
+margin-top: 10px;
+margin-left: 19%;
+font-size: 38px;
+
+}
+
+.imagen1 {
+    width: 1380px;
+    height: 931px;   
+    margin-left: 18%;
+   background-position: 50% 10%;
+}
+
+div.sobre { 
+    top: 75%;
+    margin-left: 65%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+}
+
+@media (max-width: 494px) {
+
+.parte1_1 h3 {
+margin-top: 10px;
+margin-left: 19%;
+font-size: 38px;
+
+}
+
+.imagen1 {
+    width: 1380px;
+    height: 931px;   
+    margin-left: 18%;
+   background-position: 50% 10%;
+}
+
+div.sobre { 
+    top: 75%;
+    margin-left: 110%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
 }
 </style>
