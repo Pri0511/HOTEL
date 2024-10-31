@@ -28,71 +28,7 @@
 
                     </div>
                 </div>
-                <div class="habitaciones">
-
-                    <div class="fila">
-
-
-                        <div class="imagen-container">
-                            <img src="https://static.wixstatic.com/media/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6c05c2f649564c37a7b5acfd3a848e5b.jpg"
-                                alt="">
-                            <div class="overlay">
-                                <div class="info">$250</div>
-                            </div>
-                        </div>
-
-                        <h1>Junior Suite</h1>
-                        <p>Affordable luxury. Our Junior Suites are the perfect option if you’re looking for a little
-                            extra luxury. With an open 400 square foot floor plan, the Junior Suites offer the extra
-                            space you need to spread out and enjoy the breathtaking views of the city skyline.</p>
-
-
-
-                    </div>
-
-                    <div class="fila">
-
-                        
-                        <div class="imagen-container">
-                            <img src="https://static.wixstatic.com/media/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_597c7d9710e44a9d91514e0ac84fb653.jpg"
-                            alt="">
-                            <div class="overlay">
-                                <div class="info">$150</div>
-                            </div>
-                        </div>
-
-                       
-                        <h1>
-                            Standard Room</h1>
-                        <p>
-                            Functional and comfortable. Sit back and enjoy one of our brand new 280 square foot Standard
-                            Rooms. Complete with courtyard views, stylish decor and natural light, our Standard Rooms
-                            are the perfect combination of function and comfort. Ideally suited for today’s business or
-                            leisure travelers.</p>
-                    </div>
-
-                    <div class="fila">
-                         
-                        <div class="imagen-container">
-                            <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
-                            alt="">
-                            <div class="overlay">
-                                <div class="info">$350</div>
-                            </div>
-                        </div>
-                   
-                        <h1>
-                            Superior Room</h1>
-                        <p>
-                            Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
-                            play on the road. The spacious 380 square foot rooms include an intimate lounge area,
-                            business workstation and views of the courtyard. Complete with all the regular amenities,
-                            our Superior Rooms also include a daily newspaper and water bottles</p>
-                    </div>
-
-
-
-                </div>
+  
 
             </div>
 
