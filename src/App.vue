@@ -110,11 +110,13 @@ export default {
   margin-left: -1%;
   /* position: fixed; */
   min-width: 1280px;
+  
   height: 80px; 
 }
 
 div.q-pa-md{
   min-width:  1280px;
+  margin: 0 0 0 0;
   padding: 0;
 }
 

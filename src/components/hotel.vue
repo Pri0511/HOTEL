@@ -340,7 +340,7 @@ body {
 .container {
 
     max-width:  1280px;
-    min-height: 2660px;
+    min-height: 2680px;
 
   margin:0 0 0 0;
   padding: 0;
@@ -542,7 +542,7 @@ div.sobre h2 {
 
 .parte5prte1_2 h2 {
     font-size: 0.85rem;
-    margin-top: 4.5%;
+    margin-top: 1%;
     margin-bottom: -9.5%;
     color: rgb(121, 119, 119);
     text-align: left;
@@ -553,7 +553,7 @@ div.sobre h2 {
 .parte5prte1_3 h1 {
     font-size: 0.9rem;
     margin-top: 5%;
-    margin-bottom: -30%;
+    margin-bottom: -25%;
     color: rgb(63, 62, 62);
     text-align: left;
 
@@ -561,7 +561,7 @@ div.sobre h2 {
 
 .parte5prte1_3 h2 {
     font-size: 0.85rem;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-bottom: -20%;
     color: rgb(121, 119, 119);
     text-align: left;
@@ -591,14 +591,14 @@ div.sobre h2 {
 .parte5final2 h1 {
     font-size: 0.85rem;
     margin-left: 3.5%;
-    margin-top: 5%;
+    margin-top: 2%;
     color: rgb(121, 119, 119);
 }
 
 .parte5final3 h1 {
     font-size: 0.85rem;
     margin-left: 3.5%;
-    margin-top: 1%;
+    margin-top: -1%;
 
     color: rgb(121, 119, 119);
 }
