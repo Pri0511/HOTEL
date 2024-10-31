@@ -378,26 +378,26 @@ body {
 }
 
 .imagen1 {
-    width: 800px; /* Ancho fijo */
-    height: 631px; /* Alto fijo */
-    background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg) no-repeat center center; /* Centrado y sin repetir */
-    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    width: 800px; 
+    height: 631px; 
+    background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg) no-repeat center center; 
+    background-size: cover; 
     margin-left: 20%;
     margin-top: 2%;
-    position: relative; /* Para la posición absoluta del contenido */
-    background-attachment: fixed; /* Mantiene la imagen fija */
+    position: relative; 
+    background-attachment: fixed; 
 }
 
 div.sobre {
     width: 380px;
-    height: auto; /* Cambiado para adaptarse al contenido */
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    top: 50%; /* Centrado verticalmente */
-    left: 50%; /* Centrado horizontalmente */
-    transform: translate(-50%, -50%); /* Corrección del centrado */
-    padding: 20px; /* Espaciado alrededor del texto */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar el contenido */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 div.sobre h1 {
     color: #000;
