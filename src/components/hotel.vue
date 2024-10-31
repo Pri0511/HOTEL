@@ -312,6 +312,10 @@
 
 
 <style scoped>
+body.desktop.no-touch.body--light{
+    max-width: 200px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -334,7 +338,7 @@ body {
 
 .container {
 
-    max-width: 1400px;
+    max-width: 1300px;
     min-height: 2660px;
 
   margin:0 0 0 0;
@@ -424,7 +428,7 @@ div.sobre h2 {
 
 
 .habitaciones {
-    max-width: 1400px;
+    max-width: 1250px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 30px));
     grid-gap: 20px;

@@ -109,12 +109,12 @@ export default {
   justify-content: space-between; 
   margin-left: -1%;
   /* position: fixed; */
-  min-width: 1400px;
+  min-width: 1300px;
   height: 80px; 
 }
 
 div.q-pa-md{
-  min-width: 1400px;
+  min-width: 1300px;
   padding: 0;
 }
 
