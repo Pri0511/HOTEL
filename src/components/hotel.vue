@@ -313,7 +313,8 @@
 
 <style scoped>
 body.desktop.no-touch.body--light{
-    max-width: 300px;
+    max-width: 200px;
+    
 }
 
 * {
@@ -338,7 +339,7 @@ body {
 
 .container {
 
-    max-width: 1300px;
+    max-width:  1280px;
     min-height: 2660px;
 
   margin:0 0 0 0;
@@ -371,38 +372,33 @@ body {
 .parte1_2 {
     background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 30% 70%;
 
 
 }
 
 .imagen1 {
-    width:  800px;;
-    height: 731px;
-
-    background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg);
-
-
+    width: 800px; /* Ancho fijo */
+    height: 631px; /* Alto fijo */
+    background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg) no-repeat center center; /* Centrado y sin repetir */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
     margin-left: 20%;
-    margin-top: 4%;
-    margin-bottom: -10%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    margin-top: 2%;
+    position: relative; /* Para la posición absoluta del contenido */
+    background-attachment: fixed; /* Mantiene la imagen fija */
 }
 
 div.sobre {
     width: 380px;
-    height: 450px;
-    background-color: rgb(255, 255, 255);
-   
-    top: 68%;
-    left: 50%;
+    height: auto; /* Cambiado para adaptarse al contenido */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
     position: absolute;
-    transform: translate(-50%, -50%);
+    top: 50%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Corrección del centrado */
+    padding: 20px; /* Espaciado alrededor del texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar el contenido */
 }
-
-
 div.sobre h1 {
     color: #000;
     font-size: 25px;
@@ -428,12 +424,12 @@ div.sobre h2 {
 
 
 .habitaciones {
-    max-width: 1250px;
+    max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 30px));
     grid-gap: 20px;
     padding: 30px;
-    margin:0 0 0 0;
+    margin:0 0 0 130px;
 
 }
 
@@ -471,8 +467,7 @@ div.sobre h2 {
 .fila img {
     max-width: 90%;
     display: block;
-    margin-left: auto; 
-    margin-right: auto;
+    margin-left: auto;     
     transition: opacity 0.2s; 
 }
 
@@ -512,7 +507,7 @@ div.sobre h2 {
 
 .parte5final1 {
     display: grid;
-    grid-template-columns: 30% 30% 30% 10%;
+    grid-template-columns: 30% 30% 20% 20%;
 }
 
 .parte5prte1_1 h1 {
@@ -575,7 +570,7 @@ div.sobre h2 {
 
 .esp {
     margin-top: 48px;
-    margin-left: 79%;
+    margin-left: 0%;
     width: auto;
     height: 40px;
     display: flex;
@@ -589,7 +584,7 @@ div.sobre h2 {
 
 .esp h1 {
     font-size: 0.9rem;
-    margin: 0;
+
     color: rgb(121, 119, 119);
 }
 
