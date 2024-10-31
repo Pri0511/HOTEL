@@ -28,7 +28,7 @@
 
                     </div>
                 </div>
-     <div class="habitaciones">
+                <div class="habitaciones">
 
                     <div class="fila">
 
@@ -90,6 +90,135 @@
                             our Superior Rooms also include a daily newspaper and water bottles</p>
                     </div>
 
+                    <!-- arreglar -->
+
+                    <div class="fila">
+                         
+                         <div class="imagen-container">
+                             <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                             alt="">
+                             <div class="overlay">
+                                 <div class="info">$350</div>
+                             </div>
+                         </div>
+                    
+                         <h1>
+                             Superior Room</h1>
+                         <p>
+                             Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                             play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                             business workstation and views of the courtyard. Complete with all the regular amenities,
+                             our Superior Rooms also include a daily newspaper and water bottles</p>
+                     </div>
+                     <div class="fila">
+                         
+                         <div class="imagen-container">
+                             <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                             alt="">
+                             <div class="overlay">
+                                 <div class="info">$350</div>
+                             </div>
+                         </div>
+                    
+                         <h1>
+                             Superior Room</h1>
+                         <p>
+                             Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                             play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                             business workstation and views of the courtyard. Complete with all the regular amenities,
+                             our Superior Rooms also include a daily newspaper and water bottles</p>
+                     </div>
+                     <div class="fila">
+                         
+                         <div class="imagen-container">
+                             <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                             alt="">
+                             <div class="overlay">
+                                 <div class="info">$350</div>
+                             </div>
+                         </div>
+                    
+                         <h1>
+                             Superior Room</h1>
+                         <p>
+                             Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                             play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                             business workstation and views of the courtyard. Complete with all the regular amenities,
+                             our Superior Rooms also include a daily newspaper and water bottles</p>
+                     </div>
+                     <div class="fila">
+                         
+                         <div class="imagen-container">
+                             <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                             alt="">
+                             <div class="overlay">
+                                 <div class="info">$350</div>
+                             </div>
+                         </div>
+                    
+                         <h1>
+                             Superior Room</h1>
+                         <p>
+                             Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                             play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                             business workstation and views of the courtyard. Complete with all the regular amenities,
+                             our Superior Rooms also include a daily newspaper and water bottles</p>
+                     </div>
+                     <div class="fila">
+                         
+                         <div class="imagen-container">
+                             <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                             alt="">
+                             <div class="overlay">
+                                 <div class="info">$350</div>
+                             </div>
+                         </div>
+                    
+                         <h1>
+                             Superior Room</h1>
+                         <p>
+                             Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                             play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                             business workstation and views of the courtyard. Complete with all the regular amenities,
+                             our Superior Rooms also include a daily newspaper and water bottles</p>
+                     </div>
+                     <div class="fila">
+                         
+                         <div class="imagen-container">
+                             <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                             alt="">
+                             <div class="overlay">
+                                 <div class="info">$350</div>
+                             </div>
+                         </div>
+                    
+                         <h1>
+                             Superior Room</h1>
+                         <p>
+                             Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                             play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                             business workstation and views of the courtyard. Complete with all the regular amenities,
+                             our Superior Rooms also include a daily newspaper and water bottles</p>
+                     </div>
+                     
+                     <div class="fila">
+                         
+                         <div class="imagen-container">
+                             <img src="https://static.wixstatic.com/media/fde015_6159dcce72024a789a3df21e95e8d495.jpg/v1/fill/w_649,h_408,q_85,usm_0.66_1.00_0.01/fde015_6159dcce72024a789a3df21e95e8d495.jpg"
+                             alt="">
+                             <div class="overlay">
+                                 <div class="info">$350</div>
+                             </div>
+                         </div>
+                    
+                         <h1>
+                             Superior Room</h1>
+                         <p>
+                             Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or
+                             play on the road. The spacious 380 square foot rooms include an intimate lounge area,
+                             business workstation and views of the courtyard. Complete with all the regular amenities,
+                             our Superior Rooms also include a daily newspaper and water bottles</p>
+                     </div>
 
 
                 </div>
@@ -199,22 +328,25 @@ body {
     min-width: 100%;
 }
 
-
+.app{
+    padding: 0;
+}
 
 .container {
 
-   min-width: 100vh;
+    max-width: 1400px;
     min-height: 2660px;
-    display: grid;
-    grid-template-rows: 70% 30%;
- 
 
- 
+  margin:0 0 0 0;
+  padding: 0;
+    display: grid;
+    grid-template-rows: 85% 15%;
+
 }
 
 .parte1 {
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 6% 94%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -235,20 +367,21 @@ body {
 .parte1_2 {
     background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 40% 60%;
 
 
 }
 
 .imagen1 {
-    width: 1380px;
+    width:  800px;;
     height: 731px;
+
     background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg);
-    position: absolute;
+
 
     margin-left: 20%;
-    margin-top: 0.5%;
-
+    margin-top: 4%;
+    margin-bottom: -10%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -291,12 +424,13 @@ div.sobre h2 {
 
 
 .habitaciones {
-    width: 1200px;
+    max-width: 1400px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 30%));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 30px));
     grid-gap: 20px;
     padding: 30px;
-    margin-left: 19%;
+    margin:0 0 0 0;
+
 }
 
 .fila:hover {
@@ -374,7 +508,7 @@ div.sobre h2 {
 
 .parte5final1 {
     display: grid;
-    grid-template-columns: 20% 30% 10% 40%;
+    grid-template-columns: 30% 30% 30% 10%;
 }
 
 .parte5prte1_1 h1 {
@@ -470,271 +604,4 @@ div.sobre h2 {
     color: rgb(121, 119, 119);
 }
 
-@media (max-width: 1709px) {
-
-.parte1_1 h3 {
-margin-top: 10px;
-margin-left: 50px;
-font-size: 38px;
-}
-
-.imagen1 {
-    width: 1380px;
-    height: 731px;   
-    margin-left: 18%;
-    margin-top: 0.5%;
-}
-
-div.sobre { 
-    top: 75%;
-    margin-left: 4%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
-
-.habitaciones {
-
-    margin-left: 23%;
-}
-/* parte 5 */
-
-.parte5final1 {
-    display: grid;
-    grid-template-columns: 22% 30% 10% 40%;
-}
-
-
-.parte5prte1_1 h1 {   
-    margin-left: 60%;
-    font-size: 0.8rem;
-}
-
-.parte5prte1_1 h2 { 
-    margin-left: 60%;
-    font-size: 0.8rem;
-}
-
-.parte5prte1_2 h1 {
-    font-size: 0.8rem; 
-    margin-left: 26%;
-}
-
-.parte5prte1_2 h2 {
-    font-size: 0.8rem;
-    margin-left: 26%;
-}
-
-.parte5prte1_3 h1 {
-    font-size: 0.8rem;
-    margin-top: 5%;
-    margin-left: -20%;
-}
-
-.parte5prte1_3 h2 {
-    font-size: 0.8rem;
-    margin-top: 5%;
-    margin-bottom: -20%;
-    margin-left: -20%;
-}
-
-.esp {
-    margin-top: 48px;
-    margin-left: 69%;   
- 
-}
-
-.esp h1 {
-    font-size: 0.9rem;
-    margin: 0;
-    color: rgb(121, 119, 119);
-}
-
-.parte5final2 h1 {
-    font-size: 0.85rem;
-    margin-left: 3.5%;
-    margin-top: 5%;
-    color: rgb(121, 119, 119);
-}
-
-.parte5final3 h1 {
-    font-size: 0.85rem;
-    margin-left: 3.5%;
-    margin-top: 1%;
-
-    color: rgb(121, 119, 119);
-}
-}
-
-
-
-@media (max-width: 1363px) {
-
-.parte1_1 h3 {
-margin-top: 10px;
-margin-left: 19%;
-font-size: 38px;
-}
-
-.imagen1 {
-    width: 1380px;
-    height: 731px;   
-    margin-left: 18%;
-    margin-top: 0.5%;
-}
-
-div.sobre { 
-    top: 75%;
-    margin-left: 12%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
-
-.habitaciones {
-    margin-left: 28%;
-}
-/* parte 5 */
-
-.parte5final1 {
-    display: grid;
-    grid-template-columns: 30% 30% 10% 20%;
-}
-
-
-.parte5prte1_1 h1 {   
-    margin-left: 70%;
-    font-size: 0.8rem;
-    margin-bottom: 2px;
-}
-
-.parte5prte1_1 h2 { 
-    margin-left: 70%;
-    font-size: 0.8rem;
-    margin-top: -30px;
-}
-
-.parte5prte1_2 h1 {
-    font-size: 0.8rem; 
-    margin-left: 26%;
-}
-
-.parte5prte1_2 h2 {
-    font-size: 0.8rem;
-    margin-left: 26%;
-}
-
-.parte5prte1_3 h1 {
-    font-size: 0.8rem;
-    margin-top: 5%;
-    margin-left: -20%;
-}
-
-.parte5prte1_3 h2 {
-    font-size: 0.8rem;
-    margin-top: 5%;
-    margin-bottom: -20%;
-    margin-left: -20%;
-}
-
-.esp {
-    margin-top: 48px;
-    margin-left: 69%;   
- 
-}
-
-.esp h1 {
-    font-size: 0.9rem;
-    margin-left: 100%;
-    color: rgb(121, 119, 119);
-}
-
-.parte5final2 h1 {
-    font-size: 0.85rem;
-    margin-left: 3.5%;
-    margin-top: 5%;
-    color: rgb(121, 119, 119);
-}
-
-.parte5final3 h1 {
-    font-size: 0.85rem;
-    margin-left: 3.5%;
-    margin-top: 1%;
-
-    color: rgb(121, 119, 119);
-}
-}
-
-
-@media (max-width: 1063px) {
-
-.parte1_1 h3 {
-margin-top: 10px;
-margin-left: 19%;
-font-size: 38px;
-
-}
-
-.imagen1 {
-    width: 1380px;
-    height: 931px;   
-    margin-left: 18%;
-   background-position: 50% 10%;
-}
-
-div.sobre { 
-    top: 75%;
-    margin-left: 30%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-
-}
-}
-@media (max-width: 675px) {
-
-.parte1_1 h3 {
-margin-top: 10px;
-margin-left: 19%;
-font-size: 38px;
-
-}
-
-.imagen1 {
-    width: 1380px;
-    height: 931px;   
-    margin-left: 18%;
-   background-position: 50% 10%;
-}
-
-div.sobre { 
-    top: 75%;
-    margin-left: 65%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-
-}
-}
-
-@media (max-width: 494px) {
-
-.parte1_1 h3 {
-margin-top: 10px;
-margin-left: 19%;
-font-size: 38px;
-
-}
-
-.imagen1 {
-    width: 1380px;
-    height: 931px;   
-    margin-left: 18%;
-   background-position: 50% 10%;
-}
-
-div.sobre { 
-    top: 75%;
-    margin-left: 110%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-
-}
-}
 </style>

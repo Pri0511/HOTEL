@@ -71,17 +71,18 @@ export default {
 
 <style scoped>
 * {
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
   box-sizing: content-box;
-
+ 
 }
 
 
 .custom-tabs {
-  background-color: #242323; 
+  background-color: #ff3535; 
   color: white; 
   font-size:60px;
+ 
 }
 
 .q-tab {
@@ -89,11 +90,12 @@ export default {
   flex-grow: 0.05; 
   text-align: center; 
   margin: 0 25px; 
+  
 }
 
 .q-tab .q-icon {
   font-size: 30px;
-  margin-top: 10px;
+
 }
 
 .q-tab--active {
@@ -101,16 +103,20 @@ export default {
 }
 
 .full-width-tabs {
-  display: flex;
-  margin-left: -450px;
-  margin-top: -50px;
+
+
   padding: 0;
   justify-content: space-between; 
-
-
+  margin-left: -1%;
+  /* position: fixed; */
+  min-width: 1400px;
   height: 80px; 
 }
 
+div.q-pa-md{
+  min-width: 1400px;
+  padding: 0;
+}
 
 
 </style>
