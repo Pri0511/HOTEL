@@ -212,9 +212,9 @@ body {
     background-size: cover;
     display: grid;
     grid-template-rows: 70% 30%;
-    margin-left: -30.9%;
-    margin-top: 0px;
-    margin-bottom: -5%;
+ 
+
+ 
 }
 
 .parte1 {
