@@ -205,11 +205,6 @@ body {
 
    min-width: 100vh;
     min-height: 2660px;
-
-
-
-    /*  Centra la imagen */
-    background-size: cover;
     display: grid;
     grid-template-rows: 70% 30%;
  
