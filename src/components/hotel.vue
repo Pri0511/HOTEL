@@ -313,7 +313,7 @@
 
 <style scoped>
 body.desktop.no-touch.body--light{
-    max-width: 200px;
+    max-width: 300px;
 }
 
 * {
