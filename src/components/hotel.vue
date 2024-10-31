@@ -203,8 +203,8 @@ body {
 
 .container {
 
-    min-width: 1600px;
-    min-height: 2660px;
+    width: 100%;
+    height: 100vh;
 
 
     /*  Centra la imagen */
