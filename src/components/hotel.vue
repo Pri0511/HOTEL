@@ -248,7 +248,7 @@ body {
     width: 1380px;
     height: 731px;
     background: url(https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg);
-
+    position: absolute;
 
     margin-left: 20%;
     margin-top: 0.5%;
