@@ -106,7 +106,7 @@ export default {
   margin-top: -50px;
   padding: 0;
   justify-content: space-between; 
-  width: 1993px;
+
 
   height: 80px; 
 }
