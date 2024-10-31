@@ -203,7 +203,7 @@ body {
 
 .container {
 
-   width: 100%;
+   min-width: 100vh;
     min-height: 2660px;
 
 
